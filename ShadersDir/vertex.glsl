@@ -12,7 +12,10 @@ varying vec2 TexCoord;
 void main()
 {
     gl_Position = vec4(position, 1.0f);
+
     ourColor = color;
-    TexCoord = texCoord;
+    //TexCoord = texCoord;    // 2nd Image is upside down!!
+
+    TexCoord = vec2(texCoord.x, 1.0 - texCoord.y); // we flipped the 2nd image
     gl_Position = ftransform();
 }
