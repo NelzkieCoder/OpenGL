@@ -1625,6 +1625,9 @@
 		<Unit filename="/Users/skadush/Documents/GLFW_OpenGL/glfw-3.2.1/tests/windows.c">
 			<Option target="windows"/>
 		</Unit>
+		<Unit filename="/Users/skadush/Documents/GLFW_OpenGL/main.cpp">
+			<Option target="GLFW_OpenGL"/>
+		</Unit>
 		<Unit filename="/Users/skadush/Documents/GLFW_OpenGL/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

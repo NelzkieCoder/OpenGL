@@ -3,7 +3,7 @@ project(GLFW_OpenGL)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Lesson2_Shaders/main.cpp Lesson2_Shaders/main.h Lesson2_Shaders/Lesson2_Main.cpp)
+set(SOURCE_FILES main.cpp )
 add_executable(GLFW_OpenGL ${SOURCE_FILES})
 
 add_subdirectory(/Users/skadush/Documents/GLFW_OpenGL/glfw-3.2.1/)

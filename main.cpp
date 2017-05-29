@@ -7,6 +7,7 @@
 
 // GLFW
 #include <GLFW/glfw3.h>
+#include <cmath>
 
 
 // Function prototypes
@@ -24,10 +25,10 @@ const GLchar *vertexShaderSource = "\n"
         "gl_Position = ftransform();"
         "}\0";
 const GLchar *fragmentShaderSource = "\n"
-        "\n"
+        "uniform vec4 ourColor;\n"
         "void main()\n"
         "{\n"
-        "gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);\n"
+        "gl_FragColor = ourColor;\n"
         "}\n\0";
 
 // The MAIN function, from here we start the application and run the game loop
@@ -85,6 +86,9 @@ int main() {
     GLuint shaderProgram = glCreateProgram();
     glAttachShader(shaderProgram, vertexShader);
     glAttachShader(shaderProgram, fragmentShader);
+
+
+
     glLinkProgram(shaderProgram);
     // Check for linking errors
     glGetProgramiv(shaderProgram, GL_LINK_STATUS, &success);
@@ -122,6 +126,7 @@ int main() {
     // Game loop
     while (!glfwWindowShouldClose(window)) {
         // Check if any events have been activiated (key pressed, mouse moved etc.) and call corresponding response functions
+        // Check if any events have been activiated (key pressed, mouse moved etc.) and call corresponding response functions
         glfwPollEvents();
 
         // Render
@@ -129,8 +134,16 @@ int main() {
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
-        // Draw our first triangle
+        // Be sure to activate the shader
         glUseProgram(shaderProgram);
+
+        // Update the uniform color
+        GLfloat timeValue = glfwGetTime();
+        GLfloat greenValue = (sin(timeValue) / 2) + 0.5;
+        GLint vertexColorLocation = glGetUniformLocation(shaderProgram, "ourColor");
+        glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
+
+        // Draw the triangle
         glBindVertexArray(VAO);
         glDrawArrays(GL_TRIANGLES, 0, 3);
         glBindVertexArray(0);
