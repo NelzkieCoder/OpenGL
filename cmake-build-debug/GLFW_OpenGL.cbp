@@ -85,6 +85,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/skadush/Documents/GLFW_OpenGL/glfw-3.2.1/include"/>
+					<Add directory="/Users/skadush/Documents/GLFW_OpenGL/SOIL_Builds/include"/>
 					<Add directory="/Users/skadush/Documents/GLFW_OpenGL/glew-2.0.0"/>
 					<Add directory="/Users/skadush/Documents/GLFW_OpenGL/2/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
@@ -110,6 +111,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/skadush/Documents/GLFW_OpenGL/glfw-3.2.1/include"/>
+					<Add directory="/Users/skadush/Documents/GLFW_OpenGL/SOIL_Builds/include"/>
 					<Add directory="/Users/skadush/Documents/GLFW_OpenGL/glew-2.0.0"/>
 					<Add directory="/Users/skadush/Documents/GLFW_OpenGL/2/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>

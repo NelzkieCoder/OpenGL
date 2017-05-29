@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/skadush/Documents/GLFW_OpenGL/glfw-3.2.1/include -I/Users/skadush/Documents/GLFW_OpenGL/glew-2.0.0 -I/Users/skadush/Documents/GLFW_OpenGL/2/include 
+CXX_INCLUDES = -I/Users/skadush/Documents/GLFW_OpenGL/glfw-3.2.1/include -I/Users/skadush/Documents/GLFW_OpenGL/SOIL_Builds/include -I/Users/skadush/Documents/GLFW_OpenGL/glew-2.0.0 -I/Users/skadush/Documents/GLFW_OpenGL/2/include 
 

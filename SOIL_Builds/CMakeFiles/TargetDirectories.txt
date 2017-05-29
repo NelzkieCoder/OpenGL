@@ -1,0 +1,7 @@
+/Users/skadush/Documents/SOIL_Builds/CMakeFiles/install/local.dir
+/Users/skadush/Documents/SOIL_Builds/CMakeFiles/install/strip.dir
+/Users/skadush/Documents/SOIL_Builds/CMakeFiles/install.dir
+/Users/skadush/Documents/SOIL_Builds/CMakeFiles/SOIL.dir
+/Users/skadush/Documents/SOIL_Builds/CMakeFiles/list_install_components.dir
+/Users/skadush/Documents/SOIL_Builds/CMakeFiles/rebuild_cache.dir
+/Users/skadush/Documents/SOIL_Builds/CMakeFiles/edit_cache.dir

@@ -11,6 +11,7 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../glfw-3.2.1/include"
+  "../SOIL_Builds/include"
   "../glew-2.0.0"
   "../2/include"
   )

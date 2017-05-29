@@ -268,6 +268,18 @@ OPENGL_glu_LIBRARY:FILEPATH=/System/Library/Frameworks/OpenGL.framework
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
+//Value Computed by CMake
+SOIL_BINARY_DIR:STATIC=/Users/skadush/Documents/GLFW_OpenGL/cmake-build-debug/SOIL_Master
+
+//Build tests
+SOIL_BUILD_TESTS:BOOL=false
+
+//Dependencies for the target
+SOIL_LIB_DEPENDS:STATIC=general;/System/Library/Frameworks/OpenGL.framework;
+
+//Value Computed by CMake
+SOIL_SOURCE_DIR:STATIC=/Users/skadush/Documents/GLFW_OpenGL/SOIL_Master
+
 //Path to a file.
 VULKAN_INCLUDE_DIR:PATH=VULKAN_INCLUDE_DIR-NOTFOUND
 

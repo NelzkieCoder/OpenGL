@@ -90,7 +90,9 @@ GLFW_OpenGL_EXTERNAL_OBJECTS =
 
 GLFW_OpenGL: CMakeFiles/GLFW_OpenGL.dir/main.cpp.o
 GLFW_OpenGL: CMakeFiles/GLFW_OpenGL.dir/build.make
+GLFW_OpenGL: ../SOIL_Builds/lib/libSOIL.a
 GLFW_OpenGL: glfw-3.2.1/src/libglfw3.a
+GLFW_OpenGL: ../SOIL_Builds/lib/libSOIL.a
 GLFW_OpenGL: CMakeFiles/GLFW_OpenGL.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skadush/Documents/GLFW_OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GLFW_OpenGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GLFW_OpenGL.dir/link.txt --verbose=$(VERBOSE)

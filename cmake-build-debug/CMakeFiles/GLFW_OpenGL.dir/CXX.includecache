@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../SOIL_Builds/include/SOIL/SOIL.h
+
 ../glfw-3.2.1/include/GLFW/glfw3.h
 stddef.h
 -
@@ -54,5 +56,7 @@ GL/glew.h
 GLFW/glfw3.h
 -
 cmath
+-
+SOIL/SOIL.h
 -
 

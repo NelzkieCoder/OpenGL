@@ -1,0 +1,7 @@
+/Users/skadush/Documents/SOIL_Builds/lib/libSOIL.a
+/Users/skadush/Documents/SOIL_Builds/include/SOIL/SOIL.h
+/Users/skadush/Documents/SOIL_Builds/include/SOIL/image_DXT.h
+/Users/skadush/Documents/SOIL_Builds/include/SOIL/image_helper.h
+/Users/skadush/Documents/SOIL_Builds/include/SOIL/stb_image_aug.h
+/Users/skadush/Documents/SOIL_Builds/include/SOIL/stbi_DDS_aug.h
+/Users/skadush/Documents/SOIL_Builds/include/SOIL/stbi_DDS_aug_c.h
