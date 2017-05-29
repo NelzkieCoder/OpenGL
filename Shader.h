@@ -79,6 +79,10 @@ public:
         this->Program = glCreateProgram();
         glAttachShader(this->Program, vertex);
         glAttachShader(this->Program, fragment);
+
+
+
+
         glLinkProgram(this->Program);
         // Print linking errors if any
         glGetProgramiv(this->Program, GL_LINK_STATUS, &success);
