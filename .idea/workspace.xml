@@ -39,20 +39,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a43d2ded-1117-411f-9754-aa0002124ad1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/container.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/GLFW_OpenGL" afterPath="$PROJECT_DIR$/cmake-build-debug/GLFW_OpenGL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shader.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ShadersDir/fragment.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ShadersDir/vertex.glsl" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/main.cpp.o" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/cmake_clean.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/depend.internal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/flags.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/GLFW_OpenGL.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/GLFW_OpenGL.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/boing.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/boing.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/gears.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/gears.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/simple.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/simple.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/splitview.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/splitview.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/src/CMakeFiles/glfw.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/src/CMakeFiles/glfw.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/cursor.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/cursor.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/empty.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/empty.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/events.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/events.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/gamma.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/gamma.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/iconify.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/iconify.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/monitors.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/monitors.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/msaa.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/msaa.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/tearing.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/tearing.dir/progress.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -66,7 +89,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -76,17 +99,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="277">
+              <caret line="66" column="22" lean-forward="true" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="25" />
+              <folding>
+                <element signature="e#80#103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment.glsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShadersDir/fragment.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="vertex.glsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShadersDir/vertex.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shader.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shader.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="18" />
+              <folding>
+                <element signature="e#77#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="GLSL Shader" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -100,8 +164,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Lesson2_Shaders/Lesson2_Main.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Shader.h" />
+        <option value="$PROJECT_DIR$/ShadersDir/vertex.glsl" />
+        <option value="$PROJECT_DIR$/ShadersDir/fragment.glsl" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -141,6 +208,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="GLFW_OpenGL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GLFW_OpenGL" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GLFW_OpenGL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShadersDir" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -514,12 +595,12 @@
       <workItem from="1495616836779" duration="3441000" />
       <workItem from="1495620345841" duration="981000" />
       <workItem from="1495790653386" duration="307000" />
-      <workItem from="1496042582269" duration="5178000" />
+      <workItem from="1496042582269" duration="5841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9907000" />
+    <option name="totallyTimeSpent" value="10570000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,7 +619,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2488263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -578,7 +659,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="e#80#103#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -594,7 +677,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="e#80#103#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -610,7 +695,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
           <caret line="80" column="54" lean-forward="true" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="e#80#103#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -638,19 +725,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="47" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShadersDir/fragment.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShadersDir/vertex.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="e#77#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="66" column="22" lean-forward="true" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="25" />
+          <folding>
+            <element signature="e#80#103#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

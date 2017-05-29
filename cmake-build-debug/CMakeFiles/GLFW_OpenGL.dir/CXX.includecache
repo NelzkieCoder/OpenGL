@@ -48,6 +48,22 @@ GL/glext.h
 GL/glu.h
 -
 
+/Users/skadush/Documents/GLFW_OpenGL/Shader.cpp
+Shader.h
+/Users/skadush/Documents/GLFW_OpenGL/Shader.h
+
+/Users/skadush/Documents/GLFW_OpenGL/Shader.h
+string
+-
+fstream
+-
+sstream
+-
+iostream
+-
+GL/glew.h
+-
+
 /Users/skadush/Documents/GLFW_OpenGL/main.cpp
 iostream
 -
@@ -59,4 +75,6 @@ cmath
 -
 SOIL/SOIL.h
 -
+Shader.h
+/Users/skadush/Documents/GLFW_OpenGL/Shader.h
 

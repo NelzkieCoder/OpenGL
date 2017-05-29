@@ -1392,6 +1392,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/skadush/Documents/GLFW_OpenGL/Shader.cpp">
+			<Option target="GLFW_OpenGL"/>
+		</Unit>
+		<Unit filename="/Users/skadush/Documents/GLFW_OpenGL/Shader.h">
+			<Option target="GLFW_OpenGL"/>
+		</Unit>
 		<Unit filename="/Users/skadush/Documents/GLFW_OpenGL/cmake-build-debug/glfw-3.2.1/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>

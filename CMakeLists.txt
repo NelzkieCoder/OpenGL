@@ -3,7 +3,7 @@ project(GLFW_OpenGL)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp )
+set(SOURCE_FILES main.cpp Shader.cpp Shader.h)
 add_executable(GLFW_OpenGL ${SOURCE_FILES})
 
 

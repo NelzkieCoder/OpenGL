@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/skadush/Documents/GLFW_OpenGL/Shader.cpp" "/Users/skadush/Documents/GLFW_OpenGL/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/Shader.cpp.o"
   "/Users/skadush/Documents/GLFW_OpenGL/main.cpp" "/Users/skadush/Documents/GLFW_OpenGL/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

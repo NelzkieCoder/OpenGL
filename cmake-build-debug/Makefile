@@ -518,6 +518,33 @@ events/fast:
 	$(MAKE) -f glfw-3.2.1/tests/CMakeFiles/events.dir/build.make glfw-3.2.1/tests/CMakeFiles/events.dir/build
 .PHONY : events/fast
 
+Shader.o: Shader.cpp.o
+
+.PHONY : Shader.o
+
+# target to build an object file
+Shader.cpp.o:
+	$(MAKE) -f CMakeFiles/GLFW_OpenGL.dir/build.make CMakeFiles/GLFW_OpenGL.dir/Shader.cpp.o
+.PHONY : Shader.cpp.o
+
+Shader.i: Shader.cpp.i
+
+.PHONY : Shader.i
+
+# target to preprocess a source file
+Shader.cpp.i:
+	$(MAKE) -f CMakeFiles/GLFW_OpenGL.dir/build.make CMakeFiles/GLFW_OpenGL.dir/Shader.cpp.i
+.PHONY : Shader.cpp.i
+
+Shader.s: Shader.cpp.s
+
+.PHONY : Shader.s
+
+# target to generate assembly for a file
+Shader.cpp.s:
+	$(MAKE) -f CMakeFiles/GLFW_OpenGL.dir/build.make CMakeFiles/GLFW_OpenGL.dir/Shader.cpp.s
+.PHONY : Shader.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -585,6 +612,9 @@ help:
 	@echo "... iconify"
 	@echo "... joysticks"
 	@echo "... events"
+	@echo "... Shader.o"
+	@echo "... Shader.i"
+	@echo "... Shader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

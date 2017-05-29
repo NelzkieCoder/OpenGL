@@ -9,6 +9,7 @@
 #include <GLFW/glfw3.h>
 #include <cmath>
 #include <SOIL/SOIL.h>
+#include "Shader.h"
 
 
 // Function prototypes
@@ -63,49 +64,7 @@ int main() {
     glViewport(0, 0, width, height);
 
 
-    // Build and compile our shader program
-    // Vertex shader
-    GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);
-    glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
-    glCompileShader(vertexShader);
-    // Check for compile time errors
-    GLint success;
-    GLchar infoLog[512];
-    glGetShaderiv(vertexShader, GL_COMPILE_STATUS, &success);
-    if (!success) {
-        glGetShaderInfoLog(vertexShader, 512, NULL, infoLog);
-        std::cout << "ERROR::SHADER::VERTEX::COMPILATION_FAILED\n" << infoLog << std::endl;
-    }
-    // Fragment shader
-    GLuint fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
-    glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
-    glCompileShader(fragmentShader);
-    // Check for compile time errors
-    glGetShaderiv(fragmentShader, GL_COMPILE_STATUS, &success);
-    if (!success) {
-        glGetShaderInfoLog(fragmentShader, 512, NULL, infoLog);
-        std::cout << "ERROR::SHADER::FRAGMENT::COMPILATION_FAILED\n" << infoLog << std::endl;
-    }
-    // Link shaders
-    GLuint shaderProgram = glCreateProgram();
-    glAttachShader(shaderProgram, vertexShader);
-    glAttachShader(shaderProgram, fragmentShader);
-
-
-//    // Bind attributes (if youre on core Opengl)
-//    glBindAttribLocation(shaderProgram,2,"position");
-//    glBindAttribLocation(shaderProgram,1,"aColor");
-
-    glLinkProgram(shaderProgram);
-    // Check for linking errors
-    glGetProgramiv(shaderProgram, GL_LINK_STATUS, &success);
-    if (!success) {
-        glGetProgramInfoLog(shaderProgram, 512, NULL, infoLog);
-        std::cout << "ERROR::SHADER::PROGRAM::LINKING_FAILED\n" << infoLog << std::endl;
-    }
-    glDeleteShader(vertexShader);
-    glDeleteShader(fragmentShader);
-
+    Shader ourShader("../ShadersDir/vertex.glsl", "../ShadersDir/fragment.glsl");
 
     // Set up vertex data (and buffer(s)) and attribute pointers
     float vertices[] = {
@@ -167,7 +126,7 @@ int main() {
         glClear(GL_COLOR_BUFFER_BIT);
 
         // Draw the triangle
-        glUseProgram(shaderProgram);
+        ourShader.Use();
         glBindVertexArray(VAO);
         glDrawArrays(GL_TRIANGLES, 0, 3);
         glBindVertexArray(0);
