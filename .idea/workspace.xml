@@ -39,40 +39,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a43d2ded-1117-411f-9754-aa0002124ad1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/GLFW_OpenGL" afterPath="$PROJECT_DIR$/cmake-build-debug/GLFW_OpenGL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/GLFW_OpenGL.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/GLFW_OpenGL.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/boing.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/boing.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/gears.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/gears.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/heightmap.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/particles.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/particles.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/simple.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/examples/CMakeFiles/simple.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/src/CMakeFiles/glfw.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/src/CMakeFiles/glfw.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/clipboard.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/cursor.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/cursor.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/empty.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/empty.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/events.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/events.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/gamma.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/gamma.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/glfwinfo.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/icon.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/icon.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/iconify.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/iconify.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/joysticks.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/monitors.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/monitors.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/msaa.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/msaa.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/reopen.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/reopen.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/sharing.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glfw-3.2.1/tests/CMakeFiles/sharing.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GLFW_OpenGL.dir/main.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -99,8 +66,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="121">
+              <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <element signature="e#80#103#0" expanded="true" />
               </folding>
@@ -531,12 +498,12 @@
       <workItem from="1495616836779" duration="3441000" />
       <workItem from="1495620345841" duration="981000" />
       <workItem from="1495790653386" duration="307000" />
-      <workItem from="1496042582269" duration="2374000" />
+      <workItem from="1496042582269" duration="3282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7103000" />
+    <option name="totallyTimeSpent" value="8011000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -671,8 +638,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="121">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="e#80#103#0" expanded="true" />
           </folding>
